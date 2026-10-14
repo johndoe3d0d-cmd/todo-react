@@ -110,6 +110,7 @@ function App(props) {
       >
         {taskList}
       </ul>
+      <footer className="copyright">© 2026 TodoMatic</footer>
     </div>
   );
 }
