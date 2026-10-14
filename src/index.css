@@ -177,6 +177,12 @@ body {
   max-width: 100%;
   text-align: center;
 }
+.copyright {
+  border-top: 1px solid #d3d3d3;
+  font-size: 1.4rem;
+  padding-top: 1.6rem;
+  text-align: center;
+}
 .label__lg {
   line-height: 1.01567;
   font-weight: 300;
