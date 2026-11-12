@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Form from "./components/Form";
 import FilterButton from "./components/FilterButton";
 import Todo from "./components/Todo";
+import Footer from "./components/Footer";
 import { nanoid } from "nanoid";
 
 function usePrevious(value) {
@@ -110,7 +111,7 @@ function App(props) {
       >
         {taskList}
       </ul>
-      <footer className="copyright">© 2026 TodoMatic</footer>
+      <Footer />
     </div>
   );
 }
